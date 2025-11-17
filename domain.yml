@@ -1,0 +1,52 @@
+version: "3.1"
+
+# 1. INTENTS
+intents:
+  - greet
+  - goodbye
+  - thank
+  - minta_komposisi
+  - minta_bahaya
+  - minta_p3k
+
+# 2. ENTITIES
+entities:
+  - produk
+
+# 3. SLOTS (FIXED: type: any)
+slots:
+  produk:
+    type: any 
+    influence_conversation: false
+    mappings: 
+      - type: from_entity
+        entity: produk
+
+# 4. RESPONSES
+responses:
+  utter_greet:
+    - text: "Halo! Saya adalah Chatbot Informasi Keselamatan Bahan Kimia Hytreat. Saya dapat memberikan data Komposisi, Bahaya, dan P3K untuk HYTREAT 1200, 2200, dan 5300."
+
+  utter_goodbye:
+    - text: "Terima kasih sudah menggunakan layanan ini"
+
+  utter_default:
+    - text: "Maaf, saya tidak mengerti. Anda ingin informasi tentang produk yang mana (1200, 2200, atau 5300) dan apa (komposisi, bahaya, atau P3K)? Silakan ulangi."
+
+  utter_terima_kasih:
+    - text: "Sama-sama! Apa ada pertanyaan lain mengenai produk Hytreat?"
+
+  utter_minta_komposisi:
+    - text: "Tolong sebutkan nama produk (misalnya 1200 atau 5300) agar saya bisa memberikan komposisinya."
+  
+  utter_minta_bahaya:
+    - text: "Tolong sebutkan nama produk (misalnya 1200 atau 5300) agar saya bisa menjelaskan bahaya utamanya."
+
+  utter_minta_p3k:
+    - text: "Tolong sebutkan nama produk (misalnya 1200 atau 5300) agar saya bisa memberikan informasi P3K."
+
+# 5. ACTIONS
+actions:
+  - action_provide_komposisi
+  - action_provide_bahaya
+  - action_provide_p3k

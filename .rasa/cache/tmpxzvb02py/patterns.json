@@ -1,0 +1,6 @@
+[
+  {
+    "name": "produk",
+    "pattern": "(\\bhytreat\\ 1200\\b|\\bhytreat\\ 2200\\b|\\bhytreat\\ 5300\\b|\\b1200\\b|\\b2200\\b|\\b5300\\b)"
+  }
+]

@@ -1,0 +1,6 @@
+[
+  {
+    "name": "chemical",
+    "pattern": "(\\bHytreat\\ Acid\\b|\\bHytreat\\ Cleaner\\b|\\bSodium\\ Hydroxide\\b|\\bHCl\\b)"
+  }
+]

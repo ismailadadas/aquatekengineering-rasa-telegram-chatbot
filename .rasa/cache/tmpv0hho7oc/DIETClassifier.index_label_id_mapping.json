@@ -1,0 +1,9 @@
+{
+  "0": "affirm",
+  "1": "ask_hazard",
+  "2": "ask_precaution",
+  "3": "deny",
+  "4": "goodbye",
+  "5": "greet",
+  "6": "thankyou"
+}

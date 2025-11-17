@@ -1,0 +1,608 @@
+[
+  [
+    {
+      "text": "Halo",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "Hai",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "Selamat",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "pagi",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "Hallo",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "Sampai",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "jumpa",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "Dadah",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "Bye",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "Selamat",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "tinggal",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "Terima",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "kasih",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "Makasih",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "Thanks",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "Ya",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "Betul",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "Oke",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "Tidak",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "Enggak",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "Apa",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "bahaya",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "dari",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "Sodium",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "B-chemical",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "Hydroxide",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "L-chemical",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "Kandungan",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "berbahaya",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "di",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "Hytreat",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "B-chemical",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "Cleaner",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "L-chemical",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "apa",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "saja",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "Bahaya",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "Hytreat",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "B-chemical",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "Acid",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "L-chemical",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "apa",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "Risiko",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "dari",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "HCl",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "U-chemical",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "Bahaya",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "pakai",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "Hytreat",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "B-chemical",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "Acid",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "L-chemical",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "Bagaimana",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "cara",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "aman",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "menggunakan",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "Sodium",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "B-chemical",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "Hydroxide",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "L-chemical",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "Apa",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "yang",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "harus",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "dilakukan",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "saat",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "terkena",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "Hytreat",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "B-chemical",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "Cleaner",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "L-chemical",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "Tips",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "keamanan",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "pakai",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "Hytreat",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "B-chemical",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "Acid",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "L-chemical",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ]
+]

@@ -1,0 +1,51 @@
+{
+  "text": {
+    "apa": 1,
+    "bahaya": 3,
+    "dari": 7,
+    "sodium": 17,
+    "hydroxide": 11,
+    "kandungan": 13,
+    "berbahaya": 4,
+    "di": 8,
+    "hytreat": 12,
+    "cleaner": 6,
+    "saja": 16,
+    "bagaimana": 2,
+    "cara": 5,
+    "aman": 0,
+    "menggunakan": 14,
+    "yang": 19,
+    "harus": 10,
+    "dilakukan": 9,
+    "saat": 15,
+    "terkena": 18
+  },
+  "intent": {
+    "ask_hazard": 0,
+    "ask_precaution": 1,
+    "bot_challenge": 2,
+    "goodbye": 3
+  },
+  "response": null,
+  "action_name": {
+    "action_listen": 6,
+    "action_restart": 7,
+    "action_session_start": 9,
+    "action_default_fallback": 4,
+    "action_deactivate_loop": 1,
+    "action_revert_fallback_events": 8,
+    "action_default_ask_affirmation": 2,
+    "action_default_ask_rephrase": 3,
+    "action_two_stage_fallback": 10,
+    "action_unlikely_intent": 11,
+    "action_back": 0,
+    "action_extract_slots": 5,
+    "utter_goodbye": 12,
+    "utter_hazard": 13,
+    "utter_iamabot": 14,
+    "utter_precaution": 15
+  },
+  "action_text": null,
+  "intent_response_key": null
+}

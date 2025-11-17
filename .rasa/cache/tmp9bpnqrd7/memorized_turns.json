@@ -1,0 +1,17 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taS2NhYA6dwbhQ==": "utter_greet",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpbhMiAUAQvc0lw==": "action_listen",
+    "eJydjksKgDAMBa+SA3iCXkWkFA0StB+S1E3p3Q2oSxHczYNheGPrA7TCePgwK+XkoF3gU4jo4B47iWIytwqyOZRsqoOVEbV/NKoqsr/Uf4WXFxYgJRQHY+G81G0a4OlGg+C3HEsWEup9OgGII1oC": "action_provide_komposisi",
+    "eJydjksKwzAMRK+iA+QEvkoIxjRDEak/SHI2JnevIC10U1qym4GnN5rHMdFogj2mm3EtgcYZYkkZgV7lwWooznaFOMPFqwW6C2DHD0c3g8QTvWb48oUL2BgaaG5S174tE7292UOKW82tKiv/ueCanVd83F0bW57RIoQU": "action_listen",
+    "eJy1kNEJwzAMRFfRAJnAq4Rg3FoUkdoyshwoxrtXkAb6E1oK/buD0ztxcx8T9CK4+XBV4uyg78LnkNDBy9ypKmbLtopiGcpm1cFNEHV8YDRVFL9HfyOcfGEAUsLqYC7Csa3LBAc3mQh+5VS4UqUvGwyzUcS3uz+WnY7KHC8PHGN5ApgSnro=": "utter_goodbye",
+    "eJy1kNEJwzAMRFfRAJnAq4Rg3FgUkdoythwoJrtXkAT6YxoK+buD0ztxY9sGaCnjat0sxNFA24WNLqCBw7yoCEbN1oJZMxTVioFnRpTtB6OKYLZ79D9C5wsFkBAWA2PK7OsyDXBygwpnFw6JCxW62KCYlTx+3d1Y1h2V2T/eeHHWI9ynTB+r77lw": "action_listen",
+    "eJwtymEKgCAMQOGr7ACdwKuIyKpBo5yiMwjx7g3q33vw+TEXGKXSHXFTzuJgfBEFEzn45+KmJGZ7o2qGRFmZmgNfat77GRZgMaIOkgXGFQ98cM7wAlb/JaQ=": "action_provide_bahaya",
+    "eJydjdEJgDAMRFfJAJ2gq0gpUQMGNZU2FqS4uwH1X/y7g3fvunY6aFumGnFQTuKh3SEKruThKQsXJTF2L5SNIVFWpuKh23Ia9zk4YDFEPawWMPY44YHnN705Ko/0jn7chAtnD0zG": "action_listen",
+    "eJy1j8EKgDAMQ3+lH+DN235FZFQtWNQ6tirI2L9bUO968JbAS0KaXCrIIdLusVdexUG+hBdcyMFtZk5KYuyWKBpDoqxMyUET4jpsU1sBiyHqYDGBvsMRDyzv6q1j54Ge0F8z31+EeiqlPQFHFG9h": "action_provide_p3k",
+    "eJy1j0EKhTAMRK+SA7hz16uIlKiBH9RY2ihI8e4/ou7twt0MvJlhmnxUkEOkzWOvvIiDfAkvOJOD20yclMTYNVE0hkRZmZKDJsRlWMe2AhZD1MFsAn2HP9zxeFdvHRsP9IS+mil/Eeqx8MKZKB1o/3cKk9M=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohF8hIjM/Ozy3IL84szqytjQUAE8QfxA==": "utter_minta_komposisi",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohF8hIjM/Ozy3IL84szqwlYFppSUlqUTy6JsKmxgIAW69BVA==": "action_listen"
+  }
+}

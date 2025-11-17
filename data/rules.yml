@@ -1,0 +1,36 @@
+version: "3.1"
+
+rules:
+
+# --- ATURAN BARU UNTUK GREET ---
+# Aturan ini memastikan sapaan awal direspons.
+- rule: Sambutan awal
+  steps:
+    - intent: greet
+    - action: utter_greet
+
+# --- ATURAN LAINNYA ---
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+    - intent: goodbye
+    - action: utter_goodbye
+
+- rule: Say thank you
+  steps:
+    - intent: thank
+    - action: utter_terima_kasih
+
+- rule: Tangani permintaan komposisi
+  steps:
+  - intent: minta_komposisi
+  - action: action_provide_komposisi
+
+- rule: Tangani permintaan bahaya
+  steps:
+  - intent: minta_bahaya
+  - action: action_provide_bahaya
+
+- rule: Tangani permintaan P3K
+  steps:
+  - intent: minta_p3k
+  - action: action_provide_p3k

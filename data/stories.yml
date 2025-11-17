@@ -1,0 +1,17 @@
+version: "3.1"
+
+stories:
+
+# Stories untuk alur yang lebih kompleks. 
+# Alur sederhana (greet, goodbye) sudah ditangani di rules.yml.
+
+- story: Alur Tanya Bahaya dan P3K
+  steps:
+    - intent: minta_bahaya
+      entities:
+        - produk: "5300"
+    - action: action_provide_bahaya
+    - intent: minta_p3k
+      entities:
+        - produk: "5300"
+    - action: action_provide_p3k

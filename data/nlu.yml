@@ -1,0 +1,72 @@
+version: "3.1"
+
+nlu:
+# Intent greet
+- intent: greet
+  examples: |
+    - halo
+    - selamat siang
+    - hi
+    - assalamualaikum
+    - mulai
+
+# Intent goodbye
+- intent: goodbye
+  examples: |
+    - sampai jumpa
+    - dadah
+    - sudah selesai
+    - terima kasih
+    - bye
+
+# Intent thank
+- intent: thank
+  examples: |
+    - terima kasih
+    - makasih banyak
+    - thanks
+    - ok makasih
+
+# Intent minta_komposisi
+- intent: minta_komposisi
+  examples: |
+    - apa komposisi [HYTREAT 1200](produk)?
+    - jelaskan bahan utama dari [2200](produk)
+    - kandungan [5300](produk) itu apa?
+    - komposisi produknya
+    - [hytreat 1200](produk) komposisi
+    - kandungan [2200](produk)
+    - [5300](produk) isinya apa?
+    - rincian bahan [1200](produk)
+    - apa komposisi [1200](produk)
+
+# Intent minta_bahaya
+- intent: minta_bahaya
+  examples: |
+    - bahaya utama [HYTREAT 5300](produk)
+    - apa saja hazard [1200](produk)?
+    - bahaya kalau tertelan [2200](produk)
+    - apa kata sinyal [5300](produk)?
+    - hazardnya bagaimana?
+    - tingkat bahaya [1200](produk)
+    - mau tanya dong
+
+# Intent minta_p3k
+- intent: minta_p3k
+  examples: |
+    - pertolongan pertama jika mata kena [1200](produk)?
+    - P3K untuk produk [2200](produk)
+    - first aid [5300](produk)
+    - bagaimana cara mengatasi jika tertelan
+    - P3K [1200](produk)
+    - langkah darurat [2200](produk)
+
+# Entity 'produk' (Lookup table untuk membantu NLU)
+- lookup: produk
+  examples: |
+    - hytreat 1200
+    - hytreat 2200
+    - hytreat 5300
+    - 1200
+    - 2200
+    - 5300
