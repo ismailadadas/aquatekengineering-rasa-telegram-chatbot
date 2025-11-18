@@ -62,6 +62,23 @@ bash : rasa shell
 
 Chat langsung dengan bot di terminal untuk testing cepat.
 
+Contoh chat ke bot : 
+
+
+Input : Hai
+
+
+
+Bot : Halo! Saya adalah Chatbot Informasi Keselamatan Bahan Kimia Hytreat. Saya dapat memberikan data Komposisi, Bahaya, dan P3K untuk HYTREAT 1200, 2200, dan 5300.
+
+
+input : bahaya 1200
+
+
+Bot : Kata Sinyal: DANGER. Bahaya utama: Menyebabkan kerusakan mata yang tidak dapat diperbaiki dan luka bakar pada kulit. Mungkin fatal jika tertelan atau diserap melalui kulit.
+
+
+
 7b. Jalankan Server untuk API / Channel Lain
 bash : rasa run --enable-api --debug
 
