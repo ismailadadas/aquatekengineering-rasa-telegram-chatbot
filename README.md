@@ -1,6 +1,21 @@
+Catatan Versi
+
+Rasa Version: 3.6.21
+Rasa SDK Version: 3.6.2
+Python Version: 3.9.13
+Operating System: Windows 10
+Python Path: C:\Users\ari\Desktop\Skripsi\chatbot\venv\Scripts\python.exe
+
+
+
+
 Menjalankan Chatbot Rasa Lokal
+
+
 1️⃣ Clone Repository
+
 git clone https://github.com/ismailadadas/aquatekengineering-rasa-telegram-chatbot.git
+
 cd aquatekengineering-rasa-telegram-chatbot
 
 2️⃣ Buat Virtual Environment (venv)
@@ -79,34 +94,4 @@ ngrok http 5005
 Terminal 1 → rasa run actions
 Terminal 2 → rasa run --enable-api --connector telegram
 
-9️⃣ Pastikan venv Tidak Ikut ke GitHub
 
-Buat file .gitignore di root project:
-
-venv/
-.env
-__pycache__/
-*.pyc
-
-
-Jika venv sudah terlanjur di-track:
-
-git rm -r --cached venv
-git add .
-git commit -m "Remove venv from tracking"
-git push --set-upstream origin main
-
-
-Ini mencegah push file besar di venv yang dapat menyebabkan error.
-
-🔟 Catatan Versi
-
-Rasa Version: 3.6.21
-
-Rasa SDK Version: 3.6.2
-
-Python Version: 3.9.13
-
-Operating System: Windows 10
-
-Python Path: C:\Users\ari\Desktop\Skripsi\chatbot\venv\Scripts\python.exe
