@@ -7,8 +7,6 @@ Operating System: Windows 10
 Python Path: C:\Users\ari\Desktop\Skripsi\chatbot\venv\Scripts\python.exe
 
 
-
-
 Menjalankan Chatbot Rasa Lokal
 
 
@@ -16,10 +14,10 @@ Menjalankan Chatbot Rasa Lokal
 
 git clone https://github.com/ismailadadas/aquatekengineering-rasa-telegram-chatbot.git
 
-cd aquatekengineering-rasa-telegram-chatbot
+bash : cd aquatekengineering-rasa-telegram-chatbot
 
 2️⃣ Buat Virtual Environment (venv)
-python -m venv venv
+bash : python -m venv venv
 
 
 Virtual environment menjaga dependency Python terpisah dari sistem.
@@ -28,7 +26,7 @@ Virtual environment menjaga dependency Python terpisah dari sistem.
 
 Windows (PowerShell):
 
-.\venv\Scripts\Activate.ps1
+bash : .\venv\Scripts\Activate.ps1
 
 
 Windows (cmd):
@@ -47,32 +45,25 @@ pip install rasa-sdk==3.6.2
 pip install -r requirements.txt
 
 
-Jika requirements.txt belum ada, buat dari environmentmu:
-
-pip freeze > requirements.txt
-
 5️⃣ Training Model Rasa
-rasa train
+bash : rasa train
 
 
-Folder models/ akan berisi model terbaru.
-
-6️⃣ Jalankan Action Server (Terminal 1, jika ada custom actions)
-rasa run actions
+6️⃣ Jalankan Action Server (Terminal 1, karena ada custom actions)
+bash : rasa run actions
 
 
-Biarkan terminal ini tetap berjalan jika bot memiliki custom actions.
+Biarkan terminal ini tetap berjalan karena bot memiliki custom actions.
 
 7️⃣ Jalankan Chatbot (Terminal 2)
 7a. Test Lokal dengan Rasa Shell
-rasa shell
 
+bash : rasa shell
 
 Chat langsung dengan bot di terminal untuk testing cepat.
 
 7b. Jalankan Server untuk API / Channel Lain
-rasa run --enable-api --debug
-
+bash : rasa run --enable-api --debug
 
 Server akan berjalan di http://localhost:5005.
 Gunakan terminal terpisah agar action server tetap berjalan.
@@ -81,17 +72,20 @@ Gunakan terminal terpisah agar action server tetap berjalan.
 
 Buat bot Telegram → dapatkan bot token
 
+Ubah acces token yang di dapet tadi di dalam file credentials.yml
+
 Jalankan Rasa dengan connector Telegram (Terminal 2):
 
-rasa run --enable-api --connector telegram
+bash : rasa run --enable-api --connector telegram
 
 
-Jika mau expose ke internet gunakan ngrok:
+expose ke internet gunakan ngrok , buat terminal baru (terminal 3):
 
-ngrok http 5005
+bash : ngrok http 5005
 
+copy webhook_url ngrok edit(masukin) ke credentials.yml
 
-Terminal 1 → rasa run actions
-Terminal 2 → rasa run --enable-api --connector telegram
+biarkan server nya berjalan
 
+lalu bash : rasa run (terminal 2)
 
