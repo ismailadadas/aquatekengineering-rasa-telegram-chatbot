@@ -47,8 +47,7 @@ bash : .\venv\Scripts\Activate.ps1
 Windows (cmd):
 
 
-
-.\venv\Scripts\activate.bat
+.\venv\Scripts\activate
 
 
 
