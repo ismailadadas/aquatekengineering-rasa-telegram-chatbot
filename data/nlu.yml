@@ -1,72 +1,226 @@
 version: "3.1"
 
 nlu:
-# Intent greet
+
+#  INTENT: GREET
+
 - intent: greet
   examples: |
     - halo
-    - selamat siang
     - hi
+    - hey
+    - selamat siang
+    - selamat sore
+    - selamat pagi
     - assalamualaikum
     - mulai
+    - hai bot
+    - permisi
+    - tes bot
 
-# Intent goodbye
+#  INTENT: GOODBYE
+
 - intent: goodbye
   examples: |
     - sampai jumpa
     - dadah
-    - sudah selesai
-    - terima kasih
+    - terima kasih ya
+    - ok selesai
     - bye
+    - makasih, udahan
+    - cukup itu saja
+    - sip makasih
 
-# Intent thank
+# INTENT: THANK YOU
+
 - intent: thank
   examples: |
     - terima kasih
     - makasih banyak
     - thanks
-    - ok makasih
+    - makasi ya bot
+    - mantap makasih
+    - oke makasih
 
-# Intent minta_komposisi
+# INTENT: MINTA KOMPOSISI
+
 - intent: minta_komposisi
   examples: |
     - apa komposisi [HYTREAT 1200](produk)?
-    - jelaskan bahan utama dari [2200](produk)
-    - kandungan [5300](produk) itu apa?
-    - komposisi produknya
-    - [hytreat 1200](produk) komposisi
-    - kandungan [2200](produk)
-    - [5300](produk) isinya apa?
-    - rincian bahan [1200](produk)
-    - apa komposisi [1200](produk)
+    - komposisi [1200](produk) apa?
+    - jelasin kandungan [2200](produk)
+    - bahan kimia dalam [5300](produk) apa aja?
+    - [5700](produk) isinya apa?
+    - komposisi dari produk [AQUA-SHIELD 221](produk)
+    - sebutkan bahan [AQUA-SHIELD 320](produk)
+    - bahan produk [620](produk) apa?
+    - rincian bahan [630](produk)
+    - tolong jelaskan komposisi [SULFURIC ACID](produk)
+    - komposisi hytreat [1200](produk)
+    - hytreat [1200](produk) komposisinya dong
+    - bro komposisi [1200](produk) apa sih?
 
-# Intent minta_bahaya
+# INTENT: MINTA BAHAYA (HAZARD)
+
 - intent: minta_bahaya
   examples: |
     - bahaya utama [HYTREAT 5300](produk)
     - apa saja hazard [1200](produk)?
-    - bahaya kalau tertelan [2200](produk)
+    - tingkat bahaya [2200](produk)
     - apa kata sinyal [5300](produk)?
-    - hazardnya bagaimana?
-    - tingkat bahaya [1200](produk)
-    - mau tanya dong
+    - hazard dari [620](produk)
+    - bahaya [AQUA-SHIELD 320](produk)
+    - bahaya jika tertelan [5700](produk)
+    - risiko menggunakan [221](produk)
+    - bahaya dari [SULFURIC ACID](produk)
+    - bahaya hytreat [1200](produk)
+    - bahaya untuk hytreat [1200](produk)
+    - jelasin bahaya hytreat [1200](produk)
+    - saya mau tahu bahaya hytreat [1200](produk)
+    - bro 1200 bahaya nggak?
+    - yang 1200 hazardnya apa?
+    - 1200 itu berbahaya ga?
+    - produk [1200](produk) aman tidak?
+    - bahaya kimia [5300](produk) apa?
+    - bahaya aqua shield [620](produk)
+    - bahaya untuk aqua shield [620](produk)
+    - apa hazard aqua shield [620](produk)
+    - jelasin bahaya aqua shield [620](produk)
 
-# Intent minta_p3k
+
+# INTENT: MINTA P3K
+
 - intent: minta_p3k
   examples: |
-    - pertolongan pertama jika mata kena [1200](produk)?
-    - P3K untuk produk [2200](produk)
-    - first aid [5300](produk)
-    - bagaimana cara mengatasi jika tertelan
-    - P3K [1200](produk)
-    - langkah darurat [2200](produk)
+    - bagaimana P3K [1200](produk)?
+    - pertolongan pertama untuk [2200](produk)
+    - kalau kena mata [5300](produk) harus apa?
+    - apa yang dilakukan jika tertelan [5700](produk)?
+    - langkah darurat untuk [AQUA-SHIELD 320](produk)
+    - pertolongan pertama [221](produk)
+    - P3K [620](produk)
+    - prosedur first aid [SULFURIC ACID](produk)
+    - kalau kena kulit [1200](produk) gimana?
+    - bro kalau kena mata [320](produk) gimana?
 
-# Entity 'produk' (Lookup table untuk membantu NLU)
+
+# INTENT: MINTA FUNGSI
+
+- intent: minta_fungsi
+  examples: |
+    - apa fungsi [HYTREAT 5700](produk)?
+    - kegunaan [AQUA-SHIELD 221](produk)
+    - [AQUA-SHIELD 320](produk) itu buat apa?
+    - fungsi [5300](produk) apa?
+    - produk [1200](produk) gunanya apa?
+    - manfaat dari [2200](produk)
+    - jelaskan fungsi [620](produk)
+    - [SULFURIC ACID](produk) dipakai untuk apa?
+    - bro fungsi [630](produk) apa sih?
+
+
+# INTENT: MINTA INFORMASI PENGGUNAAN
+
+- intent: minta_penggunaan
+  examples: |
+    - cara pakai [320](produk)
+    - bagaimana penggunaan [630](produk)
+    - cara menangani [1200](produk)
+    - cara simpan [5300](produk)
+    - prosedur penggunaan [221](produk)
+    - handling produk [620](produk)
+    - bagaimana penyimpanan [5700](produk)?
+    - penggunaan [SULFURIC ACID](produk) gimana?
+    - bro cara pakai [1200](produk)
+
+# LOOKUP TABLE
+
 - lookup: produk
   examples: |
     - hytreat 1200
     - hytreat 2200
     - hytreat 5300
+    - hytreat 5700
+    - aqua-shield 221
+    - aqua-shield 320
+    - aqua-shield 620
+    - aqua-shield 630
+    - aqua shield 620
+    - aqua shield 320
+    - aqua shield 221
+    - aqua shield 630
+    - sulfuric acid
     - 1200
     - 2200
     - 5300
+    - 5700
+    - 221
+    - 320
+    - 620
+    - 630
+
+# ENTITY SYNONYMS
+
+entity_synonyms:
+- value: "1200"
+  synonyms:
+    - hytreat 1200
+    - hytreat-1200
+    - hytreat type 1200
+    - hy treat 1200
+    - hytreat1200
+
+- value: "2200"
+  synonyms:
+    - hytreat 2200
+    - hytreat-2200
+    - hytreat2200
+
+- value: "5300"
+  synonyms:
+    - hytreat 5300
+    - hytreat-5300
+    - hytreat5300
+
+- value: "5700"
+  synonyms:
+    - hytreat 5700
+    - hytreat-5700
+    - hytreat5700
+
+- value: "221"
+  synonyms:
+    - aqua-shield 221
+    - aqua shield 221
+    - aquashield 221
+    - aqua–shield 221
+    - aquashield221
+
+- value: "320"
+  synonyms:
+    - aqua-shield 320
+    - aqua shield 320
+    - aquashield 320
+    - aquashield320
+
+- value: "620"
+  synonyms:
+    - aqua-shield 620
+    - aqua shield 620
+    - aquashield 620
+    - aquashield620
+
+- value: "630"
+  synonyms:
+    - aqua-shield 630
+    - aqua shield 630
+    - aquashield 630
+    - aquashield630
+
+- value: "SULFURIC ACID"
+  synonyms:
+    - sulfuric acid
+    - sulfuric-acid
+    - asam sulfat
+    - acid sulfuric
+    - h2so4

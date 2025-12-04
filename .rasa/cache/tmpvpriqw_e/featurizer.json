@@ -1,0 +1,62 @@
+{
+  "type": "MaxHistoryTrackerFeaturizer",
+  "state_featurizer": {
+    "action_texts": [],
+    "entity_tag_specs": [],
+    "feature_states": {
+      "intent": {
+        "affirm": 0,
+        "back": 1,
+        "deny": 2,
+        "goodbye": 3,
+        "greet": 4,
+        "minta_bahaya": 5,
+        "minta_fungsi": 6,
+        "minta_komposisi": 7,
+        "minta_p3k": 8,
+        "minta_penggunaan": 9,
+        "nlu_fallback": 10,
+        "out_of_scope": 11,
+        "restart": 12,
+        "session_start": 13,
+        "thank": 14
+      },
+      "action_name": {
+        "action_listen": 0,
+        "action_restart": 1,
+        "action_session_start": 2,
+        "action_default_fallback": 3,
+        "action_deactivate_loop": 4,
+        "action_revert_fallback_events": 5,
+        "action_default_ask_affirmation": 6,
+        "action_default_ask_rephrase": 7,
+        "action_two_stage_fallback": 8,
+        "action_unlikely_intent": 9,
+        "action_back": 10,
+        "...": 11,
+        "action_extract_slots": 12,
+        "action_provide_komposisi": 13,
+        "action_provide_bahaya": 14,
+        "action_provide_p3k": 15,
+        "action_provide_fungsi": 16,
+        "action_provide_informasi_penggunaan": 17,
+        "utter_default": 18,
+        "utter_goodbye": 19,
+        "utter_greet": 20,
+        "utter_minta_bahaya": 21,
+        "utter_minta_fungsi": 22,
+        "utter_minta_komposisi": 23,
+        "utter_minta_p3k": 24,
+        "utter_minta_penggunaan": 25,
+        "utter_terima_kasih": 26
+      },
+      "entities": {
+        "produk": 0
+      },
+      "slots": {},
+      "active_loop": {}
+    }
+  },
+  "remove_duplicates": true,
+  "max_history": 5
+}

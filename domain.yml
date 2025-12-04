@@ -1,6 +1,6 @@
 version: "3.1"
 
-# 1. INTENTS
+# INTENTS
 intents:
   - greet
   - goodbye
@@ -8,12 +8,16 @@ intents:
   - minta_komposisi
   - minta_bahaya
   - minta_p3k
+  - minta_fungsi
+  - minta_penggunaan 
+  - affirm
+  - deny
 
-# 2. ENTITIES
+# ENTITIES
 entities:
   - produk
 
-# 3. SLOTS (FIXED: type: any)
+# SLOTS
 slots:
   produk:
     type: any 
@@ -22,31 +26,39 @@ slots:
       - type: from_entity
         entity: produk
 
-# 4. RESPONSES
+# RESPONSES
 responses:
   utter_greet:
-    - text: "Halo! Saya adalah Chatbot Informasi Keselamatan Bahan Kimia Hytreat. Saya dapat memberikan data Komposisi, Bahaya, dan P3K untuk HYTREAT 1200, 2200, dan 5300."
+    - text: "Halo! Saya adalah Chatbot Informasi Keselamatan Bahan Kimia. Saya dapat memberikan data Komposisi, Bahaya, P3K, Fungsi, dan Informasi Penggunaan untuk produk HYTREAT dan AQUA-SHIELD serta SULFURIC ACID."
 
   utter_goodbye:
     - text: "Terima kasih sudah menggunakan layanan ini"
 
   utter_default:
-    - text: "Maaf, saya tidak mengerti. Anda ingin informasi tentang produk yang mana (1200, 2200, atau 5300) dan apa (komposisi, bahaya, atau P3K)? Silakan ulangi."
+    - text: "Maaf, saya tidak mengerti. Anda ingin informasi tentang produk yang mana? (Sebutkan Kode nya misalnya 1200, 5700, 320, atau SULFURIC ACID) dan apa (komposisi, bahaya, P3K, fungsi, atau informasi penggunaan)? Silakan ulangi."
 
   utter_terima_kasih:
-    - text: "Sama-sama! Apa ada pertanyaan lain mengenai produk Hytreat?"
+    - text: "Sama-sama! Apa ada pertanyaan lain mengenai produk kami?"
 
   utter_minta_komposisi:
-    - text: "Tolong sebutkan nama produk (misalnya 1200 atau 5300) agar saya bisa memberikan komposisinya."
+    - text: "Tolong sebutkan Kode produk (misalnya 1200, 5700, atau SULFURIC ACID) agar saya bisa memberikan komposisinya."
   
   utter_minta_bahaya:
-    - text: "Tolong sebutkan nama produk (misalnya 1200 atau 5300) agar saya bisa menjelaskan bahaya utamanya."
+    - text: "Tolong sebutkan Kode produk (misalnya 1200, 5700, atau SULFURIC ACID) agar saya bisa menjelaskan bahaya utamanya."
 
   utter_minta_p3k:
-    - text: "Tolong sebutkan nama produk (misalnya 1200 atau 5300) agar saya bisa memberikan informasi P3K."
+    - text: "Tolong sebutkan Kode produk (misalnya 1200, 5700, atau SULFURIC ACID) agar saya bisa memberikan informasi P3K."
+    
+  utter_minta_fungsi:
+    - text: "Tolong sebutkan Kode produk (misalnya 1200, 5700, atau SULFURIC ACID) agar saya bisa menjelaskan fungsi atau kegunaannya."
+    
+  utter_minta_penggunaan: 
+    - text: "Tolong sebutkan Kode produk (misalnya 1200, 5700, atau SULFURIC ACID) agar saya bisa memberikan informasi cara penggunaan dan penanganannya (handling)."
 
-# 5. ACTIONS
+# ACTIONS
 actions:
   - action_provide_komposisi
   - action_provide_bahaya
   - action_provide_p3k
+  - action_provide_fungsi
+  - action_provide_informasi_penggunaan 

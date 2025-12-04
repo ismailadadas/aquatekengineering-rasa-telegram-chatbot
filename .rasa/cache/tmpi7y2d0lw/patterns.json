@@ -1,0 +1,6 @@
+[
+  {
+    "name": "produk",
+    "pattern": "(\\bhytreat\\ 1200\\b|\\bhytreat\\ 2200\\b|\\bhytreat\\ 5300\\b|\\bhytreat\\ 5700\\b|\\baqua\\-shield\\ 221\\b|\\baqua\\-shield\\ 320\\b|\\baqua\\-shield\\ 620\\b|\\baqua\\-shield\\ 630\\b|\\bsulfuric\\ acid\\b|\\b1200\\b|\\b2200\\b|\\b5300\\b|\\b5700\\b|\\b221\\b|\\b320\\b|\\b620\\b|\\b630\\b)"
+  }
+]

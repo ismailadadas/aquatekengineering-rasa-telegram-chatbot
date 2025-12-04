@@ -2,7 +2,7 @@ version: "3.1"
 
 rules:
 
-# --- ATURAN BARU UNTUK GREET ---
+# --- ATURAN UNTUK GREET ---
 # Aturan ini memastikan sapaan awal direspons.
 - rule: Sambutan awal
   steps:
@@ -34,3 +34,13 @@ rules:
   steps:
   - intent: minta_p3k
   - action: action_provide_p3k
+
+- rule: Tangani permintaan Fungsi
+  steps:
+  - intent: minta_fungsi
+  - action: action_provide_fungsi
+
+- rule: Tangani permintaan penggunaan
+  steps:
+  - intent: minta_penggunaan
+  - action: action_provide_informasi_penggunaan
