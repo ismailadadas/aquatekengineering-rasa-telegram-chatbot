@@ -1,6 +1,8 @@
 version: "3.1"
 
-# INTENTS
+#Fungsi file ini adalah untuk mendefinisikan INTENTS, ENTITIES, SLOTS, RESPONSES, dan ACTIONS yang digunakan dalam chatbot.
+
+# INTENTS (mendefinisikan intent yang dapat dikenali oleh chatbot)
 intents:
   - greet
   - goodbye
@@ -10,14 +12,14 @@ intents:
   - minta_p3k
   - minta_fungsi
   - minta_penggunaan 
-  - affirm
-  - deny
+  #- affirm affirm dan denny digunakan untuk konfirmasi, tapi di sini gak perlu (karena bot langsung jawab) khusus untuk story yang lebih kompleks
+  #- deny
 
-# ENTITIES
+# ENTITIES (mendefinisikan entity yang dapat dikenali oleh chatbot)
 entities:
   - produk
 
-# SLOTS
+# SLOTS (mendefinisikan slot yang digunakan untuk menyimpan informasi selama percakapan)
 slots:
   produk:
     type: any 
@@ -26,8 +28,9 @@ slots:
       - type: from_entity
         entity: produk
 
-# RESPONSES
+# RESPONSES (mendefinisikan balasan yang diberikan oleh chatbot)
 responses:
+#utter responses berfungsi sebagai balasan chatbot
   utter_greet:
     - text: "Halo! Saya adalah Chatbot Informasi Keselamatan Bahan Kimia. Saya dapat memberikan data Komposisi, Bahaya, P3K, Fungsi, dan Informasi Penggunaan untuk produk HYTREAT dan AQUA-SHIELD serta SULFURIC ACID."
 
@@ -55,7 +58,7 @@ responses:
   utter_minta_penggunaan: 
     - text: "Tolong sebutkan Kode produk (misalnya 1200, 5700, atau SULFURIC ACID) agar saya bisa memberikan informasi cara penggunaan dan penanganannya (handling)."
 
-# ACTIONS
+# ACTIONS (mendefenisikan custom actions yang akan digunakan)
 actions:
   - action_provide_komposisi
   - action_provide_bahaya

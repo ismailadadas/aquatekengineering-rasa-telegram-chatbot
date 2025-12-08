@@ -1,6 +1,9 @@
 version: "3.1"
 language: id
 
+#fungsi file config.yml adalah untuk mengatur pipeline dan policies untuk nlu dan core chatbot.
+
+#pipeline untuk NLU (Natural Language Understanding)
 pipeline:
 - name: WhitespaceTokenizer
 - name: RegexFeaturizer
@@ -9,6 +12,7 @@ pipeline:
   analyzer: char_wb
   min_ngram: 1
   max_ngram: 4
+  #penting! dietclassifier otaknya nlu atau core
 - name: DIETClassifier
   epochs: 100
   constrain_negatives: true
@@ -17,7 +21,7 @@ pipeline:
 - name: ResponseSelector
   epochs: 100
   constrain_similarities: true
-
+#policies untuk Core (manajemen dialog)
 policies:
 - name: MemoizationPolicy
 - name: RulePolicy

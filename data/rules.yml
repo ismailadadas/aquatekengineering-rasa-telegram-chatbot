@@ -1,5 +1,7 @@
 version: "3.1"
 
+#fungsi rules.yml adalah untuk mendefinisikan aturan-aturan (rules) yang mengatur bagaimana chatbot merespons berbagai intent dari pengguna.
+
 rules:
 
 # --- ATURAN UNTUK GREET ---
@@ -9,17 +11,18 @@ rules:
     - intent: greet
     - action: utter_greet
 
-# --- ATURAN LAINNYA ---
+# --- ATURAN UNTUK GOODBYE ---
 - rule: Say goodbye anytime the user says goodbye
   steps:
     - intent: goodbye
     - action: utter_goodbye
-
+# --- ATURAN UNTUK THANK YOU ---
 - rule: Say thank you
   steps:
     - intent: thank
     - action: utter_terima_kasih
 
+# --- ATURAN-ATURAN UNTUK PERMINTAAN INFORMASI ---
 - rule: Tangani permintaan komposisi
   steps:
   - intent: minta_komposisi

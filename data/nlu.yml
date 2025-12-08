@@ -1,10 +1,13 @@
 version: "3.1"
 
+#Fungsi file untuk pelatihan NLU (Natural Language Understanding) chatbot, dan contoh-contoh pelatihan untuk masing-masing intent dan entity.
+
 nlu:
 
 #  INTENT: GREET
 
 - intent: greet
+#examples berfungsi sebagai data pelatihan 
   examples: |
     - halo
     - hi
@@ -133,7 +136,7 @@ nlu:
     - penggunaan [SULFURIC ACID](produk) gimana?
     - bro cara pakai [1200](produk)
 
-# LOOKUP TABLE
+# LOOKUP TABLE berfungsi untuk mengenali entitas produk
 
 - lookup: produk
   examples: |
@@ -159,7 +162,7 @@ nlu:
     - 620
     - 630
 
-# ENTITY SYNONYMS
+# ENTITY SYNONYMS berfungsi untuk menyamakan berbagai variasi penyebutan entitas produk menjadi satu nilai standar.
 
 entity_synonyms:
 - value: "1200"

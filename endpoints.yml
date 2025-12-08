@@ -1,4 +1,4 @@
-# endpoints.yml
+# endpoints.yml untuk mengatur endpoint layanan eksternal seperti action server.
 
 action_endpoint:
   url: "http://localhost:5055/webhook"
