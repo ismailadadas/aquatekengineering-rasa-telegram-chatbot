@@ -7,17 +7,13 @@ Project ini dikembangkan sebagai bagian dari penelitian skripsi terkait implemen
 Tujuan utama proyek:
 
 1.memberikan akses informasi keselamatan bahan kimia secara cepat
-
 2.mendukung prosedur kerja aman di lingkungan industri
-
 3.meningkatkan awareness terhadap bahaya material kimia 
-
-5.menyediakan solusi informasi instan dan otomatis tanpa harus membuka dokumen MSDS dan PTD /manual
+4.menyediakan solusi informasi instan dan otomatis tanpa harus membuka dokumen MSDS dan PTD /manual
 
 Studi kasus yang digunakan mengacu pada:
 
 1.Penggunaan bahan kimia HYTREAT (seri 1200, 2200, 5300, dan lainnya) , AQUA-SHIELD (Seri 620 , 630 dan lainya , dan Bahan kimia pendukung lain nya.
-
 2.kebutuhan keselamatan saat penanganan bahan kimia
 
 ⚙️ Catatan Versi
@@ -40,19 +36,13 @@ cd aquatekengineering-rasa-telegram-chatbot
 python -m venv venv
 
 3️⃣ Aktifkan Virtual Environment
-
 Windows PowerShell
-
 .\venv\Scripts\Activate.ps1
 
-
 Windows CMD
-
 .\venv\Scripts\activate
 
-
 Mac / Linux
-
 source venv/bin/activate
 
 4️⃣ Install Dependency
@@ -94,26 +84,20 @@ http://localhost:5005
 Langkah-langkah
 
 1.buat bot di Telegram (BotFather)
-
 2.dapatkan token
-
 3.buka file credentials.yml
-
 4.ganti token Telegram
-
-5.Jalankan connector Telegram :
+5.Jalankan connector Telegram 
 
 rasa run --enable-api --connector telegram
 
 6.Expose menggunakan ngrok
 
 Terminal baru:
-
 ngrok http 5005
 
 
 7.Copy webhook URL → masukkan ke credentials.yml
 
 Kemudian jalankan kembali:
-
 rasa run
