@@ -87,9 +87,13 @@ http://localhost:5005
 Langkah-langkah
 
 1.buat bot di Telegram (BotFather)
+
 2.dapatkan token
+
 3.buka file credentials.yml
+
 4.ganti token Telegram
+
 5.Jalankan connector Telegram 
 
 rasa run --enable-api --connector telegram
@@ -97,10 +101,12 @@ rasa run --enable-api --connector telegram
 6.Expose menggunakan ngrok
 
 Terminal baru:
+
 ngrok http 5005
 
 
 7.Copy webhook URL → masukkan ke credentials.yml
 
 Kemudian jalankan kembali:
+
 rasa run
