@@ -1,6 +1,24 @@
 Aquatek Engineering – Rasa Telegram Chatbot
 
-Chatbot lokal berbasis Rasa 3.6 dengan integrasi Telegram untuk memberikan informasi keselamatan bahan kimia HYTREAT (komposisi, bahaya, dan P3K).
+📌 Catatan Proyek
+
+Project ini dikembangkan sebagai bagian dari penelitian skripsi terkait implementasi chatbot berbasis Artificial Intelligence dalam penyediaan informasi keselamatan bahan kimia industri. Fokus chatbot ini adalah memberikan informasi bahaya, komposisi, dan penanganan pertama (P3K) produk kimia HYTREAT pada perusahaan PT Aquatek Engineering.
+
+Tujuan utama proyek:
+
+1.memberikan akses informasi keselamatan bahan kimia secara cepat
+
+2.mendukung prosedur kerja aman di lingkungan industri
+
+3.meningkatkan awareness terhadap bahaya material kimia 
+
+5.menyediakan solusi informasi instan dan otomatis tanpa harus membuka dokumen MSDS dan PTD /manual
+
+Studi kasus yang digunakan mengacu pada:
+
+1.Penggunaan bahan kimia HYTREAT (seri 1200, 2200, 5300, dan lainnya) , AQUA-SHIELD (Seri 620 , 630 dan lainya , dan Bahan kimia pendukung lain nya.
+
+2.kebutuhan keselamatan saat penanganan bahan kimia
 
 ⚙️ Catatan Versi
 Komponen	Versi
@@ -75,25 +93,26 @@ http://localhost:5005
 🤖 Integrasi Telegram (Opsional)
 Langkah-langkah
 
-buat bot di Telegram (BotFather)
+1.buat bot di Telegram (BotFather)
 
-dapatkan token
+2.dapatkan token
 
-buka file credentials.yml
+3.buka file credentials.yml
 
-ganti token Telegram
+4.ganti token Telegram
 
-Jalankan connector Telegram
+5.Jalankan connector Telegram :
+
 rasa run --enable-api --connector telegram
 
-Expose menggunakan ngrok
+6.Expose menggunakan ngrok
 
 Terminal baru:
 
 ngrok http 5005
 
 
-Copy webhook URL → masukkan ke credentials.yml
+7.Copy webhook URL → masukkan ke credentials.yml
 
 Kemudian jalankan kembali:
 
