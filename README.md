@@ -7,8 +7,11 @@ Project ini dikembangkan sebagai bagian dari penelitian skripsi terkait implemen
 Tujuan utama proyek:
 
 1.memberikan akses informasi keselamatan bahan kimia secara cepat
+
 2.mendukung prosedur kerja aman di lingkungan industri
+
 3.meningkatkan awareness terhadap bahaya material kimia 
+
 4.menyediakan solusi informasi instan dan otomatis tanpa harus membuka dokumen MSDS dan PTD /manual
 
 Studi kasus yang digunakan mengacu pada:
