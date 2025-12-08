@@ -7,12 +7,13 @@ Komponen	Versi
 Rasa	3.6.21
 Rasa SDK	3.6.2
 Python	3.9.13
-OS	Windows 10
 
 Python Path digunakan (opsional):
 C:\Users\ari\Desktop\Skripsi\chatbot\venv\Scripts\python.exe
 
 🚀 Menjalankan Chatbot Secara Lokal
+
+
 1️⃣ Clone Repository
 git clone https://github.com/ismailadadas/aquatekengineering-rasa-telegram-chatbot.git
 cd aquatekengineering-rasa-telegram-chatbot
